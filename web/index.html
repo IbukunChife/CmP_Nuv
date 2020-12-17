@@ -8,17 +8,19 @@
   </head>
   <body>
 
+    <div class="container-md">
+
     <form>
       <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Images</label>
-        <input type="file" class="form-control" id="image" >
+        <input type="file" class="form-control" id="image" accept=".jpg" >
       </div>
        <button type="button" class="btn btn-primary" onclick="queryServer()">Submit</button>
 
        <div id='response'></div>
     </form>
 
-
+  </div>
 
     <script type="text/javascript">
     function queryServer() {
